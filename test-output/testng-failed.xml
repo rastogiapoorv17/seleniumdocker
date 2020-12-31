@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [search_Module]">
+  <test thread-count="5" name="Search-Test-java(failed)">
+    <parameter name="keyword" value="java"/>
+    <classes>
+      <class name="com.searchmodule.test.SearchTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="search" invocation-numbers="0"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.searchmodule.test.SearchTest -->
+    </classes>
+  </test> <!-- Search-Test-java(failed) -->
+  <test thread-count="5" name="Search-Test-docker(failed)">
+    <parameter name="keyword" value="docker"/>
+    <classes>
+      <class name="com.searchmodule.test.SearchTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="search"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.searchmodule.test.SearchTest -->
+    </classes>
+  </test> <!-- Search-Test-docker(failed) -->
+  <test thread-count="5" name="Search-Test-qa(failed)">
+    <parameter name="keyword" value="qa"/>
+    <classes>
+      <class name="com.searchmodule.test.SearchTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="search"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.searchmodule.test.SearchTest -->
+    </classes>
+  </test> <!-- Search-Test-qa(failed) -->
+  <test thread-count="5" name="Search-Test-selenium(failed)">
+    <parameter name="keyword" value="selenium"/>
+    <classes>
+      <class name="com.searchmodule.test.SearchTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="search"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.searchmodule.test.SearchTest -->
+    </classes>
+  </test> <!-- Search-Test-selenium(failed) -->
+</suite> <!-- Failed suite [search_Module] -->

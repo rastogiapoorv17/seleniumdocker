@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Book_Flight_Module">
+  <test thread-count="5" name="Book-flight-Test-1">
+  <parameter name= "noOfPassanger" value="1"></parameter>
+  <parameter name= "expectedPrice" value="$584 USD"></parameter>
+    <classes>
+      <class name="test.java.com.newtours.tests.BookFLightTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Book-flight-Test-2">
+  <parameter name= "noOfPassanger" value="2"></parameter>
+  <parameter name= "expectedPrice" value="$1169 USD"></parameter>
+    <classes>
+      <class name="test.java.com.newtours.tests.BookFLightTest"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->

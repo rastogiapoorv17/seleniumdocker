@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Book_Flight_Module]">
+  <test thread-count="5" name="Book-flight-Test-1(failed)">
+    <parameter name="expectedPrice" value="$584 USD"/>
+    <parameter name="noOfPassanger" value="1"/>
+    <classes>
+      <class name="com.tour.test.BookFLightTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="registrationPage"/>
+          <include name="flightConfirmationPage"/>
+          <include name="registrationConfirmationPage"/>
+          <include name="quit"/>
+          <include name="setUpParameters"/>
+          <include name="flightBookingPage"/>
+          <include name="findFlightPage"/>
+        </methods>
+      </class> <!-- com.tour.test.BookFLightTest -->
+    </classes>
+  </test> <!-- Book-flight-Test-1(failed) -->
+  <test thread-count="5" name="Book-flight-Test-2(failed)">
+    <parameter name="expectedPrice" value="$1169 USD"/>
+    <parameter name="noOfPassanger" value="2"/>
+    <classes>
+      <class name="com.tour.test.BookFLightTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="registrationPage"/>
+          <include name="flightConfirmationPage"/>
+          <include name="registrationConfirmationPage"/>
+          <include name="quit"/>
+          <include name="setUpParameters"/>
+          <include name="flightBookingPage"/>
+          <include name="findFlightPage"/>
+        </methods>
+      </class> <!-- com.tour.test.BookFLightTest -->
+    </classes>
+  </test> <!-- Book-flight-Test-2(failed) -->
+  <test thread-count="5" name="Book-flight-Test-3(failed)">
+    <parameter name="expectedPrice" value="$1753 USD"/>
+    <parameter name="noOfPassanger" value="3"/>
+    <classes>
+      <class name="com.tour.test.BookFLightTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="registrationPage"/>
+          <include name="flightConfirmationPage"/>
+          <include name="registrationConfirmationPage"/>
+          <include name="quit"/>
+          <include name="setUpParameters"/>
+          <include name="flightBookingPage"/>
+          <include name="findFlightPage"/>
+        </methods>
+      </class> <!-- com.tour.test.BookFLightTest -->
+    </classes>
+  </test> <!-- Book-flight-Test-3(failed) -->
+  <test thread-count="5" name="Book-flight-Test-4(failed)">
+    <parameter name="expectedPrice" value="$2338 USD"/>
+    <parameter name="noOfPassanger" value="4"/>
+    <classes>
+      <class name="com.tour.test.BookFLightTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="registrationPage"/>
+          <include name="flightConfirmationPage"/>
+          <include name="registrationConfirmationPage"/>
+          <include name="quit"/>
+          <include name="setUpParameters"/>
+          <include name="flightBookingPage"/>
+          <include name="findFlightPage"/>
+        </methods>
+      </class> <!-- com.tour.test.BookFLightTest -->
+    </classes>
+  </test> <!-- Book-flight-Test-4(failed) -->
+</suite> <!-- Failed suite [Book_Flight_Module] -->
